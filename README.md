@@ -18,7 +18,14 @@ This implementation follows the tutorial series by James Smith at build-your-own
 
 ## Getting Started
 
-[Coming soon]
+### Build the image
+docker build -t redis-clone .
+
+### Run the container with port mapping and mounted code
+docker run -it \
+    -p 6379:6379 \
+    -v $(pwd):/app \
+    redis-clone bash
 
 ## Acknowledgments
 

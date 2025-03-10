@@ -1,0 +1,6 @@
+# Build output
+redis-server
+*.o
+
+# VSCode
+.vscode/ipch/

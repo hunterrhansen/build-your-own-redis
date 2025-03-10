@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+      "iostream": "cpp",
+      "iosfwd": "cpp",
+      "vector": "cpp"
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+      "tcp-server.h": "*.h",
+      "main.cpp": "*.cpp",
+    },
+  }
