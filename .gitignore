@@ -1,6 +1,9 @@
 # Build output
-redis-server
 *.o
+client
+server
+client.dSYM/
+server.dSYM/
 
 # VSCode
 .vscode/ipch/
